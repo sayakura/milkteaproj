@@ -1,0 +1,42 @@
+#tt_logo{
+    
+    height:252px;
+    width:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#select_drink{
+    margin-top: 20px;
+    font-family: 'Acme', sans-serif;
+    background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(0.03, rgb(14, 132, 76)),
+    color-stop(0.52, rgb(240,255,127)),
+    color-stop(0.76, rgb(24, 173, 108)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main_ui_tea_pic{
+    margin-top: 50px;
+    height:350px;
+    width:250px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25px;
+    background: #eee;
+    border: 2px solid transparent;
+    -moz-border-image: -moz-linear-gradient(top, #3ad57d 0%, #3a4ed5 100%);
+    -webkit-border-image: -webkit-linear-gradient(top, #3acfd5 0%, #3a4ed5 100%);
+    border-image: linear-gradient(to bottom, #3acfd5 0%, #3ad58f 100%);
+    border-image-slice: 1;
+    background: #fff;
+}
+td{
+    padding:10px;
+}
